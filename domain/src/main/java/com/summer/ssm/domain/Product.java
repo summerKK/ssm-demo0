@@ -1,5 +1,7 @@
 package com.summer.ssm.domain;
 
+import com.summer.ssm.utils.DateUtil;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -56,7 +58,12 @@ public class Product implements Serializable {
     }
 
     public String getDepartureTimeStr() {
-        return departureTimeStr;
+        if (departureTime == null) {
+            this.departureTimeStr = "";
+        } else {
+            this.departureTimeStr = DateUtil.date2String(departureTime, "yyyy-MM-dd HH:mm:ss");
+        }
+        return this.departureTimeStr;
     }
 
     public void setDepartureTimeStr(String departureTimeStr) {
@@ -88,7 +95,12 @@ public class Product implements Serializable {
     }
 
     public String getProductStatusStr() {
-        return productStatusStr;
+        if (productStatus == null) {
+            this.productStatusStr = "";
+        } else {
+            this.productStatusStr = productStatus == 1 ? "开启" : "关闭";
+        }
+        return this.productStatusStr;
     }
 
     public void setProductStatusStr(String productStatusStr) {
