@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3ed0db-0a83-448b-b711-8d91e6858888" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/product-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web-site/src/main/webapp/pages/product-list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,40 +37,103 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="356">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/main.jsp">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+            <state relative-caret-position="418">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/product-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="108">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="86">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/product-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="197" column="118" selection-start-line="197" selection-start-column="118" selection-end-line="197" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/format/annotation/DateTimeFormat.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -91,7 +164,6 @@
         <option value="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/impl/ProductDaoImpl.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/summer/ssm/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/IProductDao.xml" />
@@ -102,21 +174,25 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web-site/pom.xml" />
         <option value="$PROJECT_DIR$/web-site/src/main/java/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web-site/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/web-site/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/utils/src/main/java/com/summer/ssm/utils/DateUtil.java" />
         <option value="$PROJECT_DIR$/domain/pom.xml" />
-        <option value="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/product-list.jsp" />
-        <option value="$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web-site/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/web-site/src/main/webapp/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/web-site/src/main/webapp/pages/product-add.jsp" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java" />
       </list>
     </option>
   </component>
@@ -130,6 +206,15 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSM-demo00" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSM-demo00" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="web-site Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -209,16 +294,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMdemo00" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMdemo00" type="462c0819:PsiDirectoryNode" />
-              <item name="web-site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +384,7 @@
       <updated>1560092156577</updated>
       <workItem from="1560092160365" duration="15329000" />
       <workItem from="1560140665389" duration="714000" />
-      <workItem from="1560264362741" duration="294000" />
+      <workItem from="1560264362741" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="[*] 修改模块代码一定要记得 maven 先clean然后install&#10;血的教训~~">
       <created>1560140753098</created>
@@ -325,17 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560141059255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[+] 添加主页面">
+      <created>1560264721778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560264721778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16337000" />
+    <option name="totallyTimeSpent" value="19088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12820514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17277168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -345,7 +426,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34024897" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2614108" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33506224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +495,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[*] 修改模块代码一定要记得 maven 先clean然后install&#10;血的教训~~" />
     <MESSAGE value="[+] 更新版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="[+] 更新版本" />
+    <MESSAGE value="[+] 添加主页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] 添加主页面" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -535,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -566,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/plugins/flot/excanvas.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -583,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -617,49 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/product-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5654">
-          <caret line="257" column="84" selection-start-line="257" selection-start-column="84" selection-end-line="257" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -681,27 +693,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/main.jsp">
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/transaction/SpringManagedTransaction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
+        <state>
+          <folding>
+            <element signature="e#0#2879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/WEB-INF/pages/aside.jsp">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/summer/ssm/dao/ProductDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="86">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/format/annotation/DateTimeFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/java/com/summer/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/summer/ssm/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/summer/ssm/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="197" column="118" selection-start-line="197" selection-start-column="118" selection-end-line="197" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-site/src/main/webapp/pages/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/summer/ssm/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

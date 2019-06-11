@@ -1,6 +1,7 @@
 package com.summer.ssm.domain;
 
 import com.summer.ssm.utils.DateUtil;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -10,6 +11,7 @@ public class Product implements Serializable {
     private String productNo;
     private String productName;
     private String cityName;
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     private Date departureTime;
     private String departureTimeStr;
     private Double productPrice;

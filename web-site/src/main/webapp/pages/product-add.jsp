@@ -91,8 +91,8 @@
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="${pageContext.request.contextPath}/product/save.do"
-				method="post">
+			<form action="${pageContext.request.contextPath}/product/save.go"
+				  method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
 
@@ -102,8 +102,8 @@
 
 						<div class="col-md-2 title">产品编号</div>
 						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="productNum"
-								placeholder="产品编号" value="">
+							<input type="text" class="form-control" name="productNo"
+								   placeholder="产品编号" value="">
 						</div>
 						<div class="col-md-2 title">产品名称</div>
 						<div class="col-md-4 data">

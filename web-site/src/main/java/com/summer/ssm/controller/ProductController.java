@@ -23,4 +23,10 @@ public class ProductController {
         modelAndView.setViewName("product-list");
         return modelAndView;
     }
+
+    @RequestMapping("/save.go")
+    public String save(Product product) throws Exception {
+        productService.save(product);
+        return "redirect:list.go";
+    }
 }

@@ -7,6 +7,11 @@
         select * from product;
     </select>
 
+    <select id="save" parameterType="product">
+        insert into product(product_no,product_name,city_name,departure_time,product_price,product_desc,product_status)
+        values (#{productNo},#{productName},#{cityName},#{departureTime},#{productPrice},#{productDesc},#{productStatus})
+    </select>
+
     <resultMap id="product" type="product">
         <id property="id" column="id"/>
         <result property="productNo" column="product_no"/>
