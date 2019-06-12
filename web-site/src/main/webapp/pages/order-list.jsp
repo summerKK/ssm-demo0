@@ -247,7 +247,7 @@
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
 											<td>${orders.id }</td>
-											<td>${orders.orderNum }</td>
+											<td>${orders.orderNo }</td>
 											<td>${orders.product.productName }</td>
 											<td>${orders.product.productPrice }</td>
 											<td>${orders.orderTimeStr }</td>

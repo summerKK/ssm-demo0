@@ -101,25 +101,29 @@ public class Order implements Serializable {
     }
 
     public String getOrderTimeStr() {
-        return orderTimeStr;
+        if (this.orderTime == null) {
+            this.orderTimeStr = "";
+        } else {
+            this.orderTimeStr = DateUtil.date2String(this.orderTime, "yyyy-MM-dd HH:mm:ss");
+        }
+        return this.orderTimeStr;
     }
 
     public void setOrderTimeStr(String orderTimeStr) {
-        if (orderTime == null) {
-            this.orderTimeStr = "";
-        }
-        this.orderTimeStr = DateUtil.date2String(this.orderTime, "yyyy-MM-dd HH:mm:ss");
+        this.orderStatusStr = orderTimeStr;
     }
 
     public String getOrderStatusStr() {
-        return orderStatusStr;
+        if (this.orderStatus == null) {
+            this.orderStatusStr = "";
+        } else {
+            this.orderStatusStr = this.orderStatus == 1 ? "已支付" : "未支付";
+        }
+        return this.orderStatusStr;
     }
 
     public void setOrderStatusStr(String orderStatusStr) {
-        if (this.orderStatus == null) {
-            this.orderStatusStr = "";
-        }
-        this.orderStatusStr = this.orderStatus == 1 ? "已支付" : "未支付";
+        this.orderStatusStr = orderStatusStr;
     }
 
     @Override
