@@ -7,6 +7,10 @@
         select * from product;
     </select>
 
+    <select id="findById" resultMap="product">
+        select * from product where id = #{id}
+    </select>
+
     <select id="save" parameterType="product">
         insert into product(product_no,product_name,city_name,departure_time,product_price,product_desc,product_status)
         values (#{productNo},#{productName},#{cityName},#{departureTime},#{productPrice},#{productDesc},#{productStatus})

@@ -6,7 +6,9 @@ import java.util.List;
 
 public interface ProductDao {
 
-    public List<Product> findAll() throws Exception;
+    List<Product> findAll() throws Exception;
 
     void save(Product product) throws Exception;
+
+    Product findById(Integer id) throws Exception;
 }

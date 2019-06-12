@@ -2,7 +2,7 @@ package com.summer.ssm.domain;
 
 import java.io.Serializable;
 
-public class Memeber implements Serializable {
+public class Member implements Serializable {
     private Integer id;
     private String name;
     private String nickName;
@@ -51,7 +51,7 @@ public class Memeber implements Serializable {
 
     @Override
     public String toString() {
-        return "Memeber{" +
+        return "Member{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", nickName='" + nickName + '\'' +

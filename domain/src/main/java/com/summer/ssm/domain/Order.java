@@ -1,18 +1,24 @@
 package com.summer.ssm.domain;
 
+import com.summer.ssm.utils.DateUtil;
+
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class Order implements Serializable {
     private Integer id;
     private String orderNo;
     private Date orderTime;
+    private String orderTimeStr;
     private Integer peopleCount;
     private String orderDesc;
     private Integer payType;
     private Integer orderStatus;
-    private Integer productId;
-    private Integer memberId;
+    private String orderStatusStr;
+    private Product product;
+    private Member member;
+    private List<Traveller> travellers;
 
     public Integer getId() {
         return id;
@@ -70,20 +76,50 @@ public class Order implements Serializable {
         this.orderStatus = orderStatus;
     }
 
-    public Integer getProductId() {
-        return productId;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setProductId(Integer productId) {
-        this.productId = productId;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
-    public Integer getMemberId() {
-        return memberId;
+    public Member getMember() {
+        return member;
     }
 
-    public void setMemberId(Integer memberId) {
-        this.memberId = memberId;
+    public void setMember(Member member) {
+        this.member = member;
+    }
+
+    public List<Traveller> getTravellers() {
+        return travellers;
+    }
+
+    public void setTravellers(List<Traveller> travellers) {
+        this.travellers = travellers;
+    }
+
+    public String getOrderTimeStr() {
+        return orderTimeStr;
+    }
+
+    public void setOrderTimeStr(String orderTimeStr) {
+        if (orderTime == null) {
+            this.orderTimeStr = "";
+        }
+        this.orderTimeStr = DateUtil.date2String(this.orderTime, "yyyy-MM-dd HH:mm:ss");
+    }
+
+    public String getOrderStatusStr() {
+        return orderStatusStr;
+    }
+
+    public void setOrderStatusStr(String orderStatusStr) {
+        if (this.orderStatus == null) {
+            this.orderStatusStr = "";
+        }
+        this.orderStatusStr = this.orderStatus == 1 ? "已支付" : "未支付";
     }
 
     @Override
@@ -92,12 +128,15 @@ public class Order implements Serializable {
                 "id=" + id +
                 ", orderNo='" + orderNo + '\'' +
                 ", orderTime=" + orderTime +
+                ", orderTimeStr='" + orderTimeStr + '\'' +
                 ", peopleCount=" + peopleCount +
                 ", orderDesc='" + orderDesc + '\'' +
                 ", payType=" + payType +
                 ", orderStatus=" + orderStatus +
-                ", productId=" + productId +
-                ", memberId=" + memberId +
+                ", orderStatusStr='" + orderStatusStr + '\'' +
+                ", product=" + product +
+                ", member=" + member +
+                ", travellers=" + travellers +
                 '}';
     }
 }
