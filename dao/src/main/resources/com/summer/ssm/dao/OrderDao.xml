@@ -5,7 +5,7 @@
 
 <mapper namespace="com.summer.ssm.dao.OrderDao">
     <select id="findAll" resultMap="order">
-        select * from `order`;
+        select * from `order`
     </select>
 
     <resultMap id="order" type="order">
