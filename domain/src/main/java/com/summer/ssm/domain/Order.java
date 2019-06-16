@@ -14,6 +14,7 @@ public class Order implements Serializable {
     private Integer peopleCount;
     private String orderDesc;
     private Integer payType;
+    private String payTypeStr;
     private Integer orderStatus;
     private String orderStatusStr;
     private Product product;
@@ -126,6 +127,29 @@ public class Order implements Serializable {
         this.orderStatusStr = orderStatusStr;
     }
 
+    public String getPayTypeStr() {
+        if (payType == null) {
+            this.payTypeStr = "";
+        }
+        switch (this.payType) {
+            case 0:
+                this.payTypeStr = "支付宝";
+                break;
+            case 1:
+                this.payTypeStr = "微信";
+                break;
+            case 2:
+                this.payTypeStr = "其它";
+                break;
+        }
+
+        return this.payTypeStr;
+    }
+
+    public void setPayTypeStr(String payTypeStr) {
+        this.payTypeStr = payTypeStr;
+    }
+
     @Override
     public String toString() {
         return "Order{" +
@@ -136,6 +160,7 @@ public class Order implements Serializable {
                 ", peopleCount=" + peopleCount +
                 ", orderDesc='" + orderDesc + '\'' +
                 ", payType=" + payType +
+                ", payTypeStr=" + payTypeStr +
                 ", orderStatus=" + orderStatus +
                 ", orderStatusStr='" + orderStatusStr + '\'' +
                 ", product=" + product +

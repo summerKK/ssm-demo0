@@ -7,4 +7,6 @@ import java.util.List;
 public interface OrderDao {
 
     List<Order> findAll() throws Exception;
+
+    Order findById(int id) throws Exception;
 }

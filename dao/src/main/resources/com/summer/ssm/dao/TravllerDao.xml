@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.ssm.dao.TravllerDao">
+    <select id="findByOrderId" resultMap="orderTraveller">
+        select * from traveller where id in (select traveller_id from order_traveller where order_id = #{orderId})
+    </select>
+
+    <resultMap id="traveller" type="traveller">
+        <id property="id" column="id"/>
+        <result property="phoneNo" column="phone_no"/>
+        <result property="credentialsType" column="credentials_type"/>
+        <result property="credentialsNo" column="credentials_no"/>
+        <result property="travellerType" column="traveller_type"/>
+    </resultMap>
+
+    <resultMap id="orderTraveller" type="traveller" extends="traveller">
+
+    </resultMap>
+</mapper>

@@ -8,6 +8,10 @@
         select * from `order`
     </select>
 
+    <select id="findById" resultMap="orderItem">
+        select * from `order` where id = #{id}
+    </select>
+
     <resultMap id="order" type="order">
         <id property="id" column="id"/>
         <result property="orderNo" column="order_no"/>
@@ -25,6 +29,7 @@
     <resultMap id="orderItem" type="order" extends="order">
         <association property="product" column="product_id" select="com.summer.ssm.dao.ProductDao.findById"/>
         <association property="member" column="member_id" select="com.summer.ssm.dao.MemberDao.findById"/>
+        <collection property="travellers" column="id" select="com.summer.ssm.dao.TravllerDao.findByOrderId"/>
     </resultMap>
 
 </mapper>

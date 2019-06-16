@@ -27,4 +27,12 @@ public class OrderController {
         modelAndView.setViewName("order-list");
         return modelAndView;
     }
+
+    @RequestMapping("detail.go")
+    public ModelAndView detail(ModelAndView modelAndView, int orderId) throws Exception {
+        Order order = orderService.findById(orderId);
+        modelAndView.addObject("orders", order);
+        modelAndView.setViewName("order-show");
+        return modelAndView;
+    }
 }
